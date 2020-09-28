@@ -10,3 +10,4 @@ literpermil = literiår/körtiår #bestämmer att literpermil är en variabel so
 
 print(f'Antal mil körda i år: {körtiår:.0f}') #skriver svar
 print(f'Bilen har dragit {literpermil:.3f} per mil i år.') #skriver svar
+#
