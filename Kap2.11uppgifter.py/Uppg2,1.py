@@ -1,6 +1,12 @@
 milnu=input('Mätarställning idag? ') #ställer fråga
 milinnan=input('Mätarställning för et år sedan? ') #ställer fråga
-literiår=input('Hur många liter har gått åt i år? ') #ställer fråga
+literiår='0'
+
+if milnu == milinnan:
+    print('Om bilen dragit noll liter i år skriv N:')
+
+else:
+    literiår=input('Hur många liter har gått åt i år? ') #ställer fråga
 
 milnu = int(milnu) #bestämmer att milnu är en int variabel
 milinnan = int(milinnan) #bestämmer att milinnan är en int variabel
